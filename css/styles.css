@@ -11406,7 +11406,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
-  background-color: rgba(0, 199, 190, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
@@ -11431,11 +11431,11 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .download {
-  background: linear-gradient(rgba(0, 199, 190, 1), rgba(255, 255, 255, 1))
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 1))
 }
 
 .explanation {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 199, 190, 1))
+  background: linear-gradient(rgba(200, 200, 200, 1), rgba(155, 155, 155, 1))
 }
 
 #portfolio {
@@ -11443,7 +11443,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .agreement {
-  background: linear-gradient(rgba(0, 199, 190, 1), rgba(255, 255, 255, 1));
+  background: linear-gradient(rgba(155, 155, 155, 1), rgba(100, 100, 100, 1));
   font-size: 0.7rem;
 }
 
