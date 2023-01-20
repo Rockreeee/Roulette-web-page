@@ -41,8 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 100, 161, 157;
-  --bs-secondary-rgb: 116, 100, 161;
+  --bs-primary-rgb: 0, 100, 200;
+  --bs-secondary-rgb: 50, 150, 250;
   --bs-success-rgb: 103, 194, 156;
   --bs-info-rgb: 28, 171, 196;
   --bs-warning-rgb: 228, 198, 98;
@@ -3031,25 +3031,25 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: rgb(0, 0, 0);
-  background-color: #fff;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 100, 200);
   border-color: #fff;
 }
 .btn-primary:hover {
-  color: rgb(0, 0, 0);
-  background-color: #fff;
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 150, 250);
   border-color: #fff;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: rgb(115, 167, 163);
-  border-color: rgb(115, 167, 163);
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 150, 250);
+  border-color: rgb(50, 150, 250);
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: rgb(115, 167, 163);
-  border-color: rgb(115, 167, 163);
+  background-color: rgb(0, 100, 200);
+  border-color: rgb(0, 100, 200);
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
@@ -11395,7 +11395,7 @@ hr.divider-heavy {
 
 .space {
   height: 100px;
-  background-color: rgba(0, 199, 190, 1);
+  background-color: rgb(0, 100, 200);
 }
 
 header.masthead {
@@ -11431,20 +11431,15 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .download {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 1))
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .explanation {
-  background: linear-gradient(rgba(200, 200, 200, 1), rgba(155, 155, 155, 1))
+  background-color: rgba(255, 255, 255, 1);
 }
 
 #portfolio {
-  background: linear-gradient(rgba(52, 71, 85, 1), rgba(213, 209, 204, 1));
-}
-
-.agreement {
-  background: linear-gradient(rgba(155, 155, 155, 1), rgba(100, 100, 100, 1));
-  font-size: 0.7rem;
+  background-color: rgb(50, 150, 250);
 }
 
 .contact-section {
@@ -11484,6 +11479,13 @@ header.masthead h1, header.masthead .h1 {
   color: #fff;
 }
 
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  color: #fff;
+}
+
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
 }
@@ -11503,7 +11505,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(85, 137, 133, 0.9);
+  background: rgba(150, 200, 200, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
